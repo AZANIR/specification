@@ -13,14 +13,12 @@
   }
 
   .tabs>div {
-    /* скрыть контент по умолчанию */
     display: none;
     border: 1px solid #e0e0e0;
     padding: 10px 15px;
     font-size: 16px;
   }
 
-  /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
   #tab-btn-1:checked~#content-1,
   #tab-btn-2:checked~#content-2,
   #tab-btn-3:checked~#content-3,
